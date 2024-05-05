@@ -14,12 +14,19 @@ NAMA KELOMPOK :
 ![alt text](https://github.com/EzraNahumury/PROJECT_RPLBO/blob/main/MAIN.png?raw=true)
 
 Login : masuk dengan Username dan password yang sudah disediakan
+
+
 Username : profil1
 password : profil1
 
 Atau dengan yang lain
+
+
 Username : profil2
 password : profil2
+
+
+
 ![alt text](https://github.com/EzraNahumury/PROJECT_RPLBO/blob/main/LOGIN.png?raw=true)
 
 
