@@ -13,7 +13,7 @@ NAMA KELOMPOK :
    Kemudian akan muncul seperti ini.
 ![alt text](https://github.com/EzraNahumury/PROJECT_RPLBO/blob/main/MAIN.png?raw=true)
 
-Login : masuk dengan Username dan password yang sudah disediakan
+Login : masuk dengan Username dan password yang sudah disediakan atau mau membuat baru juga dipersilahkan ( harus signup dahulu )
 
 
 Username : profil1
