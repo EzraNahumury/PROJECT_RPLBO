@@ -9,6 +9,12 @@ NAMA KELOMPOK :
 3. Glen Daud Crasby Karo Karo - 71220914
 4. Kevin Glory Prasetyo - 71220958
 
+**Tahapan Run Project **
+1).Run atau Open  Di dalam folder Tugas Akhir Aplikasi Pencatatan Membership
+
+
+   
+
    Halaman Pertama : Run in HelloApplication.java
    Kemudian akan muncul seperti ini.
 ![alt text](https://github.com/EzraNahumury/PROJECT_RPLBO/blob/main/MAIN.png?raw=true)
