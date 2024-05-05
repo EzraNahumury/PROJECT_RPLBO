@@ -9,4 +9,21 @@ NAMA KELOMPOK :
 3. Glen Daud Crasby Karo Karo - 71220914
 4. Kevin Glory Prasetyo - 71220958
 
-5. ![alt text](https://github.com/EzraNahumury/PROJECT_RPLBO/blob/main/LOGIN.png?raw=true)
+   Halaman Pertama : Run in HelloApplication.java
+   Kemudian akan muncul seperti ini.
+![alt text](https://github.com/EzraNahumury/PROJECT_RPLBO/blob/main/MAIN.png?raw=true)
+
+Login : masuk dengan Username dan password yang sudah disediakan
+Username : profil1
+password : profil1
+
+Atau dengan yang lain
+Username : profil2
+password : profil2
+![alt text](https://github.com/EzraNahumury/PROJECT_RPLBO/blob/main/LOGIN.png?raw=true)
+
+
+selanjutnya akan masuk otomatis ke Halaman Utama Website
+![alt text](https://github.com/EzraNahumury/PROJECT_RPLBO/blob/main/MENU-UTAMA.png?raw=true)
+
+
