@@ -110,7 +110,7 @@ public class viewController implements Initializable {
             setUserData(username, email);
 
             // Lanjutkan dengan mengambil data dari tabel membership atau melakukan operasi lain yang diperlukan
-            String membershipQuery = "SELECT * FROM view";
+            String membershipQuery =  "SELECT * FROM view NATURAL JOIN jembatan WHERE id_profil ="+profilId;
             ObservableList<viewmembership> data = getDataFromTable(membershipQuery);
             tabelMember.setItems(data); // Atur data baru ke tabelMember
         } catch (SQLException e) {
