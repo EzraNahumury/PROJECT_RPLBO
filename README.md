@@ -21,10 +21,13 @@ Login : masuk dengan Username dan password yang sudah disediakan atau mau membua
 
 
 Untuk Masuk Ke Halaman Admin Maka :
+
 Username : admin
+
 Password : admin
 
 Untuk Masuk Ke Halaman User Maka : 
+
 username dan password nya lihat di database tabel users atau buat signup terlebih dahulu
 
 
