@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fix_banget.LoginController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #0698ff;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Logo-Membership.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="70.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Membership">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #ffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#0698ff" layoutX="134.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnLogin" layoutX="95.0" layoutY="346.0" mnemonicParsing="false" onAction="#login" prefHeight="37.0" prefWidth="191.0" style="-fx-background-color: #0698ff;" text="Login" textFill="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="90.0" fitWidth="145.0" layoutX="142.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Logo-Login.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="usernameField" layoutX="112.0" layoutY="195.0" prefWidth="168.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="passwordField" layoutX="112.0" layoutY="243.0" prefWidth="168.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+            <ImageView fitHeight="43.0" fitWidth="25.0" layoutX="79.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Logo-Username.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="25.0" layoutX="79.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Logo-Password.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#6399ef" layoutX="112.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Password?">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <CheckBox layoutX="96.0" layoutY="303.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-background-color: transparent;" text="Remember Me" textFill="#6399ef" />
+            <Text layoutX="99.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account ?" />
+            <Button fx:id="btnSignUp" layoutX="227.0" layoutY="431.0" mnemonicParsing="false" onAction="#signUp" prefHeight="26.0" prefWidth="57.0" style="-fx-background-color: none;" text="SignUp" textFill="#0698ff">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

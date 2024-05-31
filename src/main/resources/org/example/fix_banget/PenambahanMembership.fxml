@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fix_banget.PenambahanMembershipController">
+    <children>
+        <Text fill="#007fff" layoutX="36.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Membership" wrappingWidth="183.13672065734863">
+            <font>
+                <Font name="Arial Bold" size="30.0" />
+            </font>
+        </Text>
+        <Text fill="#007fff" layoutX="86.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New" wrappingWidth="68.1367301940918">
+            <font>
+                <Font name="Arial Bold" size="30.0" />
+            </font>
+        </Text>
+        <TextArea fx:id="txtArea" layoutX="28.0" layoutY="167.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #007fff; -fx-border-radius: 15px;" />
+        <Text layoutX="34.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Details" wrappingWidth="68.1367301940918" />
+        <AnchorPane layoutX="305.0" prefHeight="400.0" prefWidth="300.0">
+            <children>
+                <TextField fx:id="txtCompany" layoutX="68.0" layoutY="157.0" prefHeight="26.0" prefWidth="183.0" promptText="Name Perusahaan" style="-fx-border-color: #007fff;" />
+                <TextField fx:id="TxtHarga" layoutX="68.0" layoutY="282.0" prefHeight="26.0" prefWidth="183.0" promptText="Harga" style="-fx-border-color: #007fff;" />
+                <DatePicker fx:id="txtExpDate" layoutX="68.0" layoutY="239.0" prefHeight="26.0" prefWidth="183.0" promptText="Exp Date" style="-fx-border-color: #007fff;" />
+                <Button fx:id="btnAddNew" layoutX="78.0" layoutY="325.0" mnemonicParsing="false" onAction="#addNewMembership" prefHeight="36.0" prefWidth="164.0" style="-fx-background-color: #007fff;" text="ADD NEW MEMEBRSHIP" textFill="WHITE" />
+                <ImageView fitHeight="80.0" fitWidth="125.0" layoutX="103.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../Image/Logo-Membership.png" />
+                    </image>
+                </ImageView>
+                <DatePicker fx:id="txtStartDate" layoutX="68.0" layoutY="199.0" prefHeight="26.0" prefWidth="183.0" promptText="Start Date" style="-fx-border-color: #007fff;" />
+            <ComboBox fx:id="NameMembership" layoutX="68.0" layoutY="117.0" onAction="#BtnMembership" prefHeight="25.0" prefWidth="183.0" promptText="NAME MEMBERSHIP" />
+            </children></AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fix_banget.EditProfileController">
+   <children>
+      <AnchorPane layoutX="-5.0" layoutY="-2.0" prefHeight="400.0" prefWidth="212.0" style="-fx-background-color: #EBC95E;">
+         <children>
+            <ImageView fitHeight="127.0" fitWidth="183.0" layoutX="15.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="259.0" layoutY="99.0" text="username">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="132.0" text="email">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="172.0" text="password">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtusername" layoutX="368.0" layoutY="99.0" />
+      <TextField fx:id="txtemail" layoutX="369.0" layoutY="132.0" />
+      <TextField fx:id="txtpassword" layoutX="368.0" layoutY="172.0" />
+      <Button fx:id="btnSave" layoutX="359.0" layoutY="297.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="26.0" prefWidth="102.0" text="Back" />
+      <Label layoutX="244.0" layoutY="39.0" text="Profile Settings">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

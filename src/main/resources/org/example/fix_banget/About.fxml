@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fix_banget.AboutController">
+   <children>
+      <TextArea layoutX="303.0" layoutY="51.0" prefHeight="96.0" prefWidth="239.0" text="Member Track merupakan aplikasi &#10;untuk mencatat daftar membership&#10;pengguna. Fitur di dalamnya memuat &#10;menambahkan,mengupdate,menghapus&#10;dan melihat daftar membership yang ada" />
+      <Label layoutX="303.0" layoutY="22.0" text="Deskripsi " />
+      <TextArea layoutX="300.0" layoutY="216.0" prefHeight="96.0" prefWidth="282.0" text="Priesma Putra Reditama  - 71220848&#10;Ezra Kristanto Nahumury  - 71220849&#10;Glen Daud Crasby Karo Karo - 71220914&#10;Kevin Glory Prasetyo - 71220958" />
+      <Label layoutX="303.0" layoutY="184.0" text="Pengembang " />
+      <Button fx:id="back" layoutX="529.0" layoutY="348.0" mnemonicParsing="false" onAction="#handleBackButton" onMouseClicked="#handleBackButton" text="Back" />
+      <AnchorPane prefHeight="400.0" prefWidth="252.0" style="-fx-background-color: #0698ff;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="37.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Logo-Membership.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="37.0" layoutY="34.0" text="Informasi Aplikasi Dan Pengembang">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

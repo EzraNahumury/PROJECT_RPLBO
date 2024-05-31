@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fix_banget.HelloController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #0698ff;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Logo-Membership.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="70.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Membership">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#0698ff" layoutX="62.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GET STARTED">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Text>
+            <Button layoutX="96.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnLogin" style="-fx-background-color: #0698ff;" text="Login" textFill="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="186.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnSignup" style="-fx-background-color: #0698ff;" text="SignUp" textFill="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Text fill="#0698ff" layoutX="128.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Membership">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#0698ff" layoutX="103.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terms Of Use" />
+            <Text fill="#0698ff" layoutX="184.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|" />
+            <Text fill="#0698ff" layoutX="195.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy Policy" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
