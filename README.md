@@ -10,9 +10,7 @@ NAMA KELOMPOK :
 4. Kevin Glory Prasetyo - 71220958
 
 **Tahapan Run Project **
-1).Run atau Open  Di dalam folder Tugas Akhir Aplikasi Pencatatan Membership
-
-
+1).Run atau Open  Di dalam folder 
    
 
    Halaman Pertama : Run in HelloApplication.java
@@ -22,14 +20,12 @@ NAMA KELOMPOK :
 Login : masuk dengan Username dan password yang sudah disediakan atau mau membuat baru juga dipersilahkan ( harus signup dahulu )
 
 
-Username : profil1
-password : profil1
+Untuk Masuk Ke Halaman Admin Maka :
+Username : admin
+Password : admin
 
-Atau dengan yang lain
-
-
-Username : profil2
-password : profil2
+Untuk Masuk Ke Halaman User Maka : 
+username dan password nya lihat di database tabel users atau buat signup terlebih dahulu
 
 
 
